@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:translationX="70dp"
+        android:translationY="10dp"
+        android:src="@drawable/sportlogo"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="70dp"
+        android:translationY="220dp"
+        android:src="@drawable/sportinfo"/>
+    <EditText
+        android:id="@+id/txtusername"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:translationY="300dp"
+        android:translationX="80dp"
+        android:hint="Username"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/form_login"/>
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:translationY="360dp"
+        android:translationX="80dp"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/form_login" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:translationX="80dp"
+        android:translationY="440dp"
+        app:shapeAppearanceOverlay="@style/leaf"
+        android:backgroundTint="#eb8712"/>
+
+</RelativeLayout>
